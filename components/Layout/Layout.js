@@ -18,7 +18,14 @@ const Layout  = ({children,title}) => {
       {children}
     </main>
     <Footer/>
+    {/* <style jsx>
+        {
+
+        }
+      </style> */}
     </>
+      
+
   )
 }
 

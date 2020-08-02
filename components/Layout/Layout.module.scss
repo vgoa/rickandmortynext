@@ -1,12 +1,16 @@
 .Layout{
-  height: calc(100% - 100px);
+  min-height: 100%;
   margin-top: 100px;
   width: 100%;
-  position: fixed;
   left: 0;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  @media screen 
+  and (device-width:500px)
+  and (orientation:landscape){
+    height: auto;
+  }
 }
