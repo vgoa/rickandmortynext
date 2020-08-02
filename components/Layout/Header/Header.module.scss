@@ -8,8 +8,25 @@
   text-align: center;
   line-height: 100px;
   text-transform: capitalize;
-  span{
-    color: white;
-    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  img{
+    max-width: 60px;
+    height: 60px;
+    z-index:0;
+    animation: rotate 2s linear infinite;
+    transition: all .3s;
+    margin: auto;
+  }
+  a{
+    display: flex;
+  }
+}
+@keyframes rotate {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
   }
 }

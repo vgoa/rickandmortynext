@@ -1,11 +1,17 @@
 import React from 'react'
 
+import Link from 'next/link'
+
 import styles from './Header.module.scss'
 
 function Header() {
   return (
     <header className={styles.Header}>
-      <span>Waba lubba dub dub</span>
+      <Link href="/"> 
+        <a>
+          <img src="assets/img/randmportal.png" alt="logo"/>
+        </a>
+      </Link>
     </header>
   )
 }
